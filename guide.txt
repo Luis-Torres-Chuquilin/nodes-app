@@ -1,0 +1,33 @@
+npm i body-parser ----> body request
+npm i cors
+npm express
+npm mongoose
+npm nodemon
+
+in package-json:
+
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",     < --- add this to use import "<   >" from " " in index.js
+  ---------------
+
+  This packkages for REACT:
+
+  yarn add axios moment react-file-base64 redux redux-thunk
+
+-----------
+
+TO USE the  variables  save in .env ---> I need to install the next package: "" npm i dotenv "
+and import in index.js and call dotenv.config(); where you will use the env variables and you can use:
+
+import dotenv from "dotenv";
+dotenv.config();
+
+const PORT = process.env.PORT || 5000;
+.connect(process.env.CONNECTION_URL,  .... )
+
+------------
+
